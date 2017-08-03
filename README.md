@@ -6,8 +6,8 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 Syntax highlighted code block
 
-[## Archive](https://jvallera.github.io/archive)
-[## Current](https://jvallera.github.io/current)
+## [Archive](https://jvallera.github.io/archive)
+## [Current](https://jvallera.github.io/current)
 ### Header 3
 
 - Bulleted
