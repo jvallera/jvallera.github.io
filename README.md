@@ -11,8 +11,8 @@ Markdown is a lightweight and easy-to-use syntax for styling your writing. It in
 ```markdown
 Syntax highlighted code block
 
-# Header 1
-## Header 2
+## [Archive](https://jvallera.github.io/archive)
+## [Current](https://jvallera.github.io/current)
 ### Header 3
 
 - Bulleted
