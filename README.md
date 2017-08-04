@@ -1,32 +1,28 @@
-## Julia's Stuff
+# Project Pages
 
-You can use the [editor on GitHub](https://github.com/jvallera/jvallera.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Project Pages is Jekyll Template specifically geared towards collaborative science. For more information, click [here](https://github.com/projectpages/project-pages/wiki/).
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+# Nav Bar Jumbles
 
-Syntax highlighted code block
+If you have seemingly random pages popping up on your Nav Bar recently, this is due to the fact that GitHub/Jekyll changed a fundemental rule they used to render pages. 
 
-## [Archive](https://jvallera.github.io/archive)
-## [Current](https://jvallera.github.io/current)
-### Header 3
+## CAUSE:
+It used to be that if a markdown file didn't have `---` frontmatter at the beginning, it wasn't rendered as a page. This was changed very recently (like in the last 2 days) so that every markdown file anywhere no matter what gets rendered as a page.  
 
-- Bulleted
-- List
+## FIX:
 
-1. Numbered
-2. List
+1) Go to:
 
-**Bold** and _Italic_ and `Code` text
+`project-pages/plugin/projector/` or `yourreponame/plugin/projector/` and delete the `README.md` file. This can be done graphically for the non-Git-savvy by simply going to your:
 
-[Link](url) and ![Image](src)
-```
+GitHub account -> Your Profile -> Repositories -> Project-Pages/Your Repo -> Plugin -> projector 
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+and clicking on the files, then clicking on the "thrash can / delete this file" icon on the top right corner of the file.
 
-### Jekyll Themes
+2) Go to:
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/jvallera/jvallera.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+`project-pages/css/theme/` or `yourreponame/css/theme/` and delete the `README.md` file. This can be done graphically for the non-Git-savvy by simply going to your:
 
-### Support or Contact
+GitHub account -> Your Profile -> Repositories -> Project-Pages/Your Repo -> Plugin -> projector 
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+and clicking on the files, then clicking on the "thrash can / delete this file" icon on the top right corner of the file.
